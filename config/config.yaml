@@ -273,8 +273,8 @@ storage:
 ai:
   # 这里的 ${AI_API_KEY} 会自动读取你刚才在 Secrets 里填的内容
   api_key: "${AI_API_KEY}"
-  # 2026年推荐使用 flash-lite 模型，速度极快且节省额度
-  model: "gemini/gemini-1.5-flash" 
+  # 已升级为 2026 年最新的 3.1 Flash Lite 预览版
+  model: "gemini/gemini-3.1-flash-lite-preview" 
   # Google AI Studio 的标准接口地址
   api_base: "https://generativelanguage.googleapis.com"
   # 开启 AI 分析功能
